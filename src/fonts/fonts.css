@@ -1,0 +1,271 @@
+/* src/fonts/fonts.css */
+
+
+/* Epilogue Black */
+@font-face {
+    font-family: 'Epilogue';
+    font-weight: 900;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-Black.ttf') format('truetype');
+  }
+  
+  /* Epilogue Bold */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-Bold.ttf') format('truetype');
+  }
+  
+  /* Epilogue ExtraBold */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 800;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-ExtraBold.ttf') format('truetype');
+  }
+  
+  /* Epilogue ExtraLight */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 200;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-ExtraLight.ttf') format('truetype');
+  }
+  
+  /* Epilogue Light */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-Light.ttf') format('truetype');
+  }
+  
+  /* Epilogue Regular */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-Regular.ttf') format('truetype');
+  }
+  
+  /* Epilogue Medium */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-Medium.ttf') format('truetype');
+  }
+  
+  /* Epilogue SemiBold */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-SemiBold.ttf') format('truetype');
+  }
+  
+  /* Epilogue Thin */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 100;
+    font-style: normal;
+    src: url('./epilogue/Epilogue-Thin.ttf') format('truetype');
+  }
+  
+  
+
+/* Epilogue Black Italic */
+@font-face {
+    font-family: 'Epilogue';
+    font-weight: 900;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-BlackItalic.ttf') format('truetype');
+  }
+  
+  /* Epilogue Bold Italic */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-BoldItalic.ttf') format('truetype');
+  }
+  
+  /* Epilogue ExtraBold Italic */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 800;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-ExtraBoldItalic.ttf') format('truetype');
+  }
+  
+  /* Epilogue ExtraLight Italic */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 200;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-ExtraLightItalic.ttf') format('truetype');
+  }
+  
+  /* Epilogue Light Italic */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 300;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-LightItalic.ttf') format('truetype');
+  }
+  
+  /* Epilogue Regular Italic */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-Italic.ttf') format('truetype');
+  }
+  
+  /* Epilogue Medium Italic */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 500;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-MediumItalic.ttf') format('truetype');
+  }
+  
+  /* Epilogue SemiBold Italic */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-SemiBoldItalic.ttf') format('truetype');
+  }
+  
+  /* Epilogue Thin Italic */
+  @font-face {
+    font-family: 'Epilogue';
+    font-weight: 100;
+    font-style: italic;
+    src: url('./epilogue/Epilogue-ThinItalic.ttf') format('truetype');
+  }
+
+  .myFont1 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 100;
+  }
+
+  .myFont2 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 200;
+  }
+
+  .myFont3 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+  }
+
+  .myFont4 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+  }
+
+  .myFont5 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+  }
+
+  .myFont6 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+  }
+  .myFont7 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+  }
+  .myFont8 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+  }
+  .myFont9 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+  }
+
+
+  .text-7hxl {
+    font-size: 5.3rem;
+    line-height: 6rem;
+  }
+
+
+  .button2 {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .button2:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  
+  .button2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #009087;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:hover {
+    color: #ffffff;
+    border: 1px solid #009087;
+  }
+  
+  .button2:hover:before {
+    top: -35%;
+    background-color: #009087;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button2:hover:after {
+    top: -45%;
+    background-color: #009087;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+
+  .logo {
+    width: 12rem; /* Adjust the width of your logo image */
+    height: auto;
+  }
