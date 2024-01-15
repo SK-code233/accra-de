@@ -7,12 +7,12 @@ export default function Navi() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex items-center mb-4 md:mb-0" href="www.google.com">
           <img
-            src={require("../AccraDeutschlogo.png")}
+            src={require("../Accra Deutsch logos.png")}
             alt="Accra Deutsch Logo"
             className="logo"
           />
         </a>
-        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <nav className="md:ml-auto ml-0 md:mr-auto flex flex-wrap items-center text-base justify-center">
           <a
             className="mr-smyFont6 text-xl hover:text-gray-900 mr-12"
             href="www.google.com"

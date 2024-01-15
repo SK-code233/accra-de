@@ -195,6 +195,21 @@
     line-height: 6rem;
   }
 
+  .text-6hxl {
+    font-size: 4.2rem;
+    line-height: 5rem;
+  }
+
+  .text-5hxl {
+    font-size: 3.9rem;
+    line-height: 4.5rem;
+  }
+
+  .text-4hxl {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+
 
   .button2 {
     display: inline-block;
@@ -240,7 +255,7 @@
     top: 180%;
     width: 160%;
     height: 190%;
-    background-color: #009087;
+    background-color: #50b57a;
     border-radius: 50%;
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -249,18 +264,18 @@
   
   .button2:hover {
     color: #ffffff;
-    border: 1px solid #009087;
+    border: 1px solid #50b57a;
   }
   
   .button2:hover:before {
     top: -35%;
-    background-color: #009087;
+    background-color: #50b57a;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   }
   
   .button2:hover:after {
     top: -45%;
-    background-color: #009087;
+    background-color: #50b57a;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   }
   
@@ -268,4 +283,15 @@
   .logo {
     width: 12rem; /* Adjust the width of your logo image */
     height: auto;
+  }
+
+  body span {
+    color: #50b57a;
+  }
+
+  .image {
+    height: 35rem;
+    width: 38rem;
+    /* overflow: hidden; */
+    object-fit: cover;
   }
