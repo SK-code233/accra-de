@@ -293,5 +293,5 @@
     height: 35rem;
     width: 38rem;
     /* overflow: hidden; */
-    object-fit: cover;
+    object-fit: cover !important;
   }
