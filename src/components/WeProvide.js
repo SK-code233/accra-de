@@ -1,4 +1,8 @@
 import React from "react";
+import "../fonts/fontA.css";
+import "./Weprov.css";
+import "./pattern.css";
+// import "./pattern.css";
 
 const WeProvide = () => {
   return (
@@ -6,40 +10,26 @@ const WeProvide = () => {
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
-              SERVICES
-            </h2>
-            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-              This is what we have to offer you
+            <h1 class="sm:text-3xl text-4xl myFontA font-medium title-fonts text-gray-900">
+              Why <span className="accraDe"> AccraDeutsch </span>?
             </h1>
           </div>
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
-              <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                    </svg>
-                  </div>
-                  <h2 class="text-gray-900 text-lg title-font font-medium">
-                    Shooting Stars
-                  </h2>
-                </div>
-                <div class="flex-grow">
-                  <p class="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+            <div className="p-4 md:w-1/3">
+              <div class="card">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
+                </svg>
+                <div class="card__content">
+                  <p class="card__title"> Learn at anytime We accept anyone Quality education</p>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna.
                   </p>
-                  <a class="mt-3 text-indigo-500 inline-flex items-center" href="##">
+                  <a
+                    class="mt-3 myFontColor inline-flex items-center"
+                    href="##"
+                  >
                     Learn More
                     <svg
                       fill="none"
@@ -56,33 +46,21 @@ const WeProvide = () => {
                 </div>
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
-              <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                      <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                  </div>
-                  <h2 class="text-gray-900 text-lg title-font font-medium">
-                    The Catalyzer
-                  </h2>
-                </div>
-                <div class="flex-grow">
-                  <p class="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+            <div className="p-4 md:w-1/3">
+              <div class="card">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
+                </svg>
+                <div class="card__content">
+                  <p class="card__title">Very Affordable</p>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna.
                   </p>
-                  <a class="mt-3 text-indigo-500 inline-flex items-center" href="##">
+                  <a
+                    class="mt-3 myFontColor inline-flex items-center"
+                    href="##"
+                  >
                     Learn More
                     <svg
                       fill="none"
@@ -99,34 +77,28 @@ const WeProvide = () => {
                 </div>
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
-              <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                <div class="flex items-center mb-3">
-                  <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      class="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <circle cx="6" cy="6" r="3"></circle>
-                      <circle cx="6" cy="18" r="3"></circle>
-                      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                    </svg>
-                  </div>
-                  <h2 class="text-gray-900 text-lg title-font font-medium">
-                    Neptune
-                  </h2>
-                </div>
-                <div class="flex-grow">
-                  <p class="leading-relaxed text-base">
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+            <div className="p-4 md:w-1/3">
+              <div class="card">
+                {/* <span className="pattern">
+                  {" "}
+                  <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
+                </span> */}
+                <svg viewBox="0 0 24 24" className="patterns">
+                  <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
+                </svg>
+                <div class="card__content">
+                  <p class="card__title">
+                    {" "}
+                    Learn from anywhere in the comfort of your home
                   </p>
-                  <a class="mt-3 text-indigo-500 inline-flex items-center" href="##">
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna.
+                  </p>
+                  <a
+                    class="mt-3 myFontColor inline-flex items-center"
+                    href="##"
+                  >
                     Learn More
                     <svg
                       fill="none"

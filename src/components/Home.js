@@ -5,12 +5,14 @@ import React from 'react'
 import NaviB from './NaviB';
 // import Hero from './Hero';
 import Welcome from './Welcome';
-import WeProvide from './WeProvide';
-import OurTeachers from './OurTeachers'
-import Steps from './Steps';
-import Footer from './Footer';
-import './carousels.css';
+import WeProvide from './WeProvideB';
+// import OurTeachers from './OurTeachers'
+// import Steps from './Steps';
+import Footer from './FooterC';
+// import './carousels.css';
 import Card from './Card';
+// import Video from './Video';
+
 
 
 function Home() {
@@ -22,9 +24,11 @@ function Home() {
       {/* <Hero /> */}
       <Welcome />
       <WeProvide />
-      <OurTeachers />
-      <Steps />
+      {/* <OurTeachers />
+      <Steps /> */}
       <Footer /> 
+      {/* <Video /> */}
+      {/* <Video /> */}
       {/* <CarouselSwipes 
         className="carousels" /> */}
     </div>

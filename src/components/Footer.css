@@ -1,0 +1,63 @@
+.boxFoot {
+  width: 22rem;
+  height: 4.3rem;
+  /* background-color: #3dbc7f; */
+  display: flex;
+  margin-left: 2rem;
+  box-shadow: #5b6e6133 0px 7px 29px 0px;
+}
+
+.boxA {
+  background: #ffffff;
+  flex: 4;
+  height: 100%;
+  /* align-items: center;
+  justify-content: center; */
+  padding: 1px 1px;
+}
+
+.boxA:focus {
+    outline-color: #e8e8e8;
+}
+
+.boxB {
+  /* background: #085a50; */
+  /* background-color: rgb(6 95 70 / var(--tw-text-opacity)); */
+  color: #ffffff;
+  flex: 1;
+  height: 100%;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.input {
+    border: none;
+    padding: 1rem;
+    color: #158c46;
+    /* border-radius: 1rem; */
+    /* background: #e8e8e8; */
+    /* box-shadow: 20px 20px 60px #c5c5c5,
+           -20px -20px 60px #ffffff;
+    transition: 0.3s; */
+   }
+   
+
+   ::placeholder {
+    color: #85ac96 !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #85ac96 !important;
+  }
+
+  input[placeholder], [placeholder], *[placeholder] {
+    color: #85ac96 !important;
+}
+
+/* #1e8f4d #50b57a */
+
+.endss {
+    /* padding: 18px; */
+    margin: 18px;
+}

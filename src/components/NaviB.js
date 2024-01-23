@@ -4,12 +4,12 @@ import "../fonts/fontA.css";
 export default function NaviB() {
   return (
     <header className="text-gray-600 body-font mt-0 mb-10">
-      <div className="container mx-auto flex flex-wrap p-0 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-0 flex-col md:flex-row items-center animate__animated animate__fadeInDown">
         <a className="flex items-center mb-4 md:mb-0" href="www.google.com">
           <img
             src={require("../Accra Deutsch logos.png")}
             alt="Accra Deutsch Logo"
-            className="logo"
+            className="logo animate__animated animate__fadeInLeft"
           />
         </a>
         <nav className=" mt-3 md:ml-28 ml-0 md:mr-autoa mr-80 flex flex-wrap items-center text-base justify-center">

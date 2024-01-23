@@ -4,9 +4,9 @@ import "../fonts/fontA.css";
 const Welcome = () => {
   return (
     <div>
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font mt-40">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center  animate__animated animate__fadeInUp">
             <h1 class="title-fonts sm:text-4xl myFont text-4hxl mb-4 text-gray-900">
               You are Welcome to
                <span className="accraDe"> AccraDeutsch </span>
@@ -29,9 +29,9 @@ const Welcome = () => {
               </button>
             </div>
           </div>
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6  animate__animated animate__fadeInUp">
             <img
-              class="object-cover object-center rounded image"
+              class=" object-center imageWelc"
               alt="hero"
               src={require("../images/good-faces-MUAjN1w9lUA-unsplash.jpg")}
             />

@@ -2,6 +2,36 @@
 
 /* Epilogue Black */
 
+
+@font-face {
+  font-family: "Space MonoA";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Space MonoB";
+  font-weight: 300;
+  font-style: italic;
+  src: url("./Space_Mono/SpaceMono-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Space MonoC";
+  font-weight: bold;
+  font-style: normal;
+  src: url("./Space_Mono/SpaceMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Space MonoD";
+  font-weight: 500;
+  font-style: normal;
+  src: url("./Space_Mono/SpaceMono-BoldItalic.ttf") format("truetype");
+}
+
+
 @font-face {
   font-family: "Archia1";
   font-weight: 300;
@@ -231,9 +261,50 @@ body span {
   color: #1e8f4d;
 }
 
-.image {
+.imagess {
   height: 35rem;
   width: 38rem;
+  object-fit: cover !important;
+}
+
+.imageWelc {
+  height: 35rem;
+  width: 38rem;
+  border-radius: 1.5em;
   /* overflow: hidden; */
   object-fit: cover !important;
+}
+
+
+
+
+.myFontA {
+  font-family: "Space MonoA", monospace;
+  font-weight: normal;
+}
+
+.myFontB {
+  font-family: "Space MonoB", monospace;
+  font-weight: 300;
+}
+
+.myFontC {
+  font-family: "Space MonoC", monospace;
+  font-weight: bold;
+}
+
+.myFontD {
+  font-family: "Space MonoD", monospace;
+  font-weight: 500;
+}
+
+.myColor {
+  color: #50b57a;
+  background-color: #50b57a;
+}
+
+
+.myFontColor {
+  color: #50b57a;
+  /* background-color: #50b57a; */
 }

@@ -15,6 +15,7 @@
   width: 100%;
 }
 
+
 .color {
   height: 100%;
   width: 100%;
@@ -27,7 +28,7 @@
   letter-spacing: 1px;
   transition: flex 0.1s linear;
   margin-right: 2rem;
-  border-radius: 60em;
+  border-radius: 6em;
 }
 
 .color span {
@@ -119,10 +120,10 @@
   margin-top: 4rem;
 }
 
-.image {
+.imageCard {
   height: 100%;
   width: 100%;
-  border-radius: 40em;
+  border-radius: 1.5em;
 }
 
 .box {
@@ -166,3 +167,14 @@
   position: absolute;
   float: right;
 } */
+
+
+.toFront {
+  z-index: 1; /* set higher z-index value */
+  position: relative; /* position must be set for z-index to work */
+}
+
+.toBehind {
+  z-index: 0; /* set lower z-index value */
+  position: relative; /* position must be set for z-index to work */
+}
