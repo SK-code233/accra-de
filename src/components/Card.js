@@ -21,7 +21,7 @@ const Card = () => {
         <h1 className="heroChild myFont animate__animated animate__fadeInUp">
           Speak.
         </h1>
-        <a href="##" className="box mt-16 animate__animated animate__fadeInUp bg-white">
+        <a href="http://www.google.com" className="box mt-16 animate__animated animate__fadeInUp bg-white">
           <h2 className="myFont text-2xl text-center boxA align-middle justify-center align-bottosm">
             Get started
           </h2>
@@ -36,7 +36,8 @@ const Card = () => {
             <img
               class="object-cover object-center roundeds imageCard"
               alt="hero"
-              src={require("../images/image1.webp")}
+              src={require("../images/ruth1.jpg")}
+              // src={require("../images/image1.webp")}
             />
           </div>
           <div className="color">
@@ -52,7 +53,8 @@ const Card = () => {
             <img
               class="object-cover object-center imageCard roundeds"
               alt="hero"
-              src={require("../images/image3.webp")}
+              src={require("../images/ruth.jpg")}
+              // src={require("../images/image3.webp")}
             />
           </div>
         </div>
