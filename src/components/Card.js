@@ -36,8 +36,8 @@ const Card = () => {
             <img
               class="object-cover object-center roundeds imageCard"
               alt="hero"
-              src={require("../images/ruth1.jpg")}
-              // src={require("../images/image1.webp")}
+              // src={require("../images/ruth1.jpg")}
+              src={require("../images/image1.webp")}
             />
           </div>
           <div className="color">
@@ -53,8 +53,8 @@ const Card = () => {
             <img
               class="object-cover object-center imageCard roundeds"
               alt="hero"
-              src={require("../images/ruth.jpg")}
-              // src={require("../images/image3.webp")}
+              // src={require("../images/ruth.jpg")}
+              src={require("../images/image3.webp")}
             />
           </div>
         </div>
