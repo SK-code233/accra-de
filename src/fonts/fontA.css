@@ -2,7 +2,6 @@
 
 /* Epilogue Black */
 
-
 @font-face {
   font-family: "Space MonoA";
   font-weight: normal;
@@ -30,7 +29,6 @@
   font-style: normal;
   src: url("./Space_Mono/SpaceMono-BoldItalic.ttf") format("truetype");
 }
-
 
 @font-face {
   font-family: "Archia1";
@@ -176,7 +174,7 @@
   cursor: pointer;
   font-size: 19px;
   border-radius: 5em;
-  background: #50b57a;  
+  background: #50b57a;
   border: 1px solid #50b57a;
   /* border: 1px solid #e8e8e8; */
   color: #ffffff;
@@ -251,7 +249,6 @@
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 
-
 .logo {
   width: 14rem; /* Adjust the width of your logo image */
   height: auto;
@@ -274,9 +271,6 @@ body span {
   /* overflow: hidden; */
   object-fit: cover !important;
 }
-
-
-
 
 .myFontA {
   font-family: "Space MonoA", monospace;
@@ -302,7 +296,6 @@ body span {
   color: #50b57a;
   background-color: #50b57a;
 }
-
 
 .myFontColor {
   color: #50b57a;

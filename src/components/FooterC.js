@@ -26,7 +26,7 @@ const Footer = () => {
             {/* <div className="flex justify-between"> */}
             <div className="flex justify-between">
               <a href="##" className=" endss">
-                About Us
+                Home
               </a>
               <a href="##" className=" endss">
                 Course
@@ -34,10 +34,10 @@ const Footer = () => {
             </div>
             <div className="flex justify-between">
               <a href="##" className=" endss">
-                Discover
+                About Us
               </a>
               <a href="##" className=" endss">
-                Services
+                Contact
               </a>
             </div>
             {/* </div> */}

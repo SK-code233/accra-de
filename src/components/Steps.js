@@ -6,7 +6,7 @@ const Steps = () => {
   return (
     <div>
      
-      <section>
+      <section className=" content-center justify-center align-middle mx-auto mt-20 max-w-2xl bg-slate-500s p-10">
         <TabsJustify />
         {/* <TwElement /> */}
       </section>

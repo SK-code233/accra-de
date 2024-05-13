@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import Navi from "./components/Navi";
-import Hero from "./components/Hero";
+// import Navi from "./components/Navi";
+// import Hero from "./components/Hero";
 // import About from "./components/About";
 
 import {

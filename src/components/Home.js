@@ -1,22 +1,20 @@
-import React from 'react'
-
+import React from "react";
 
 // import Navi from './Navi';
-import NaviB from './NaviB';
+import NaviB from "./NaviB";
 // import Hero from './Hero';
-import Welcome from './Welcome';
-import WeProvide from './WeProvideB';
+import Welcome from "./Welcome";
+import WeProvide from "./WeProvideB";
 // import WeProvide from './WeProvideC';
 // import OurTeachers from './OurTeachers'
-// import Steps from './Steps';
-import Footer from './FooterC';
+import Steps from './Steps';
+import Footer from "./FooterC";
 // import './carousels.css';
-import Card from './Card';
-import Testimonials from './Testimonials';
-import Questions from './Questions';
+import Card from "./Card";
+// import Cards from './CardMain';
+import Testimonials from "./Testimonials";
+import Questions from "./Questions";
 // import Video from './Video';
-
-
 
 function Home() {
   return (
@@ -24,12 +22,13 @@ function Home() {
       <NaviB />
       <Card />
       <Welcome />
-      {/* <Testimonials /> */}
+      {/* <Cards /> */}
+      <Testimonials />
+      {/* <Steps />  */}
       <WeProvide />
       <Questions />
-      <Footer /> 
+      <Footer />
       {/* <OurTeachers />
-      <Steps /> */}
       {/* <Navi /> */}
       {/* <Video /> */}
       {/* <Hero /> */}
@@ -37,7 +36,7 @@ function Home() {
       {/* <CarouselSwipes 
         className="carousels" /> */}
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

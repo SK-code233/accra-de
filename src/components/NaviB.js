@@ -12,12 +12,12 @@ export default function NaviB() {
             className="logo animate__animated animate__fadeInLeft"
           />
         </a>
-        <nav className=" mt-3 md:ml-28 ml-0 md:mr-autoa mr-80 flex flex-wrap items-center text-base justify-center">
+        <nav className=" mt-3 md:ml-44 ml-5 md:mr-autoa mr-80 flex flex-wrap items-center text-base justify-center">
           <a
-            className="mr-s myFontBa text-xl hover:text-gray-900 mr-12"
+            className="mr-5s myFontBa text-xl hover:text-gray-900 mr-12"
             href="www.google.com"
           >
-            About Us
+            Home
           </a>
           <a
             className="mr-5s myFontBa text-xl hover:text-gray-900 mr-12"
@@ -26,25 +26,25 @@ export default function NaviB() {
             Course
           </a>
           <a
-            className="mr-5s myFontBa text-xl hover:text-gray-900 mr-12"
+            className="mr-s myFontBa text-xl hover:text-gray-900 mr-12"
             href="www.google.com"
           >
-            Discover
+            About Us
           </a>
           <a
             className="mr-5s myFontBa text-xl hover:text-gray-900"
             href="www.google.com"
           >
-            Services
+            Contact
           </a>
         </nav>
         {/* <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Button
           
         </button> */}
-        <button className="button2 myFont inline-flex items-center focus:outline-none roundeds text-base mt-0 md:mt-0">
+        {/* <button className="button2 myFont inline-flex items-center focus:outline-none roundeds text-base mt-0 md:mt-0">
           Hover me
-        </button>
+        </button> */}
       </div>
     </header>
   );
